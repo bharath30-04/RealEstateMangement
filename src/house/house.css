@@ -1,0 +1,244 @@
+/*.small
+{ 	margin:10px 20px;
+	width:100%;
+	display:flex;
+	gap:10px;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+	
+}
+.small img{
+ width:15%;
+ height:10%;
+ border-radius:5px;
+ cursor:pointer;
+ 
+ 
+}
+
+.big
+{ display:flex;
+margin:50px 20px;
+justify-content:space-evenly;
+}
+.big img{
+width:65%;
+height:50%;
+border-radius:15px;
+box-shadow:0 10px 20px rgba(0,0,0,0.7);
+}
+
+.address{
+margin:30px 30px;
+padding:10px;
+display:flex;
+flex-direction:column;
+justify-content:space-evenly;
+border:4px solid gray;
+border-radius:5px;
+box-shadow:3px 3px 3px rgba(0,0,0,0.5);
+background-color:rgba(0,0,0,0.1);
+}
+
+.add{
+
+
+margin-left:40px;
+
+}
+*/
+
+
+.house {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a41;
+     padding: 20px;
+}
+
+
+
+.house h1 {
+    text-align: center;
+    color: #343a41;
+    margin: 20px 0;
+}
+
+.house .big {
+    display: flex;
+  
+    margin: 50px 20px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.house .big-image-container {
+    width: 2200px; /* Set a fixed width */
+    height: 400px;   /* Set a fixed height */
+  
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.75);
+    overflow: hidden; /* Ensure the image does not overflow the container */
+}
+
+.house .big img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image scales nicely */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.house .big img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+.house .detail{
+	font-size: 1.5em;
+    font-weight: 600;
+    color: black;
+}
+.house .ver{
+    background-color: green;
+    display: inline-block;
+    border-radius: 2px;
+    font-weight: 400;
+    color: black;
+}
+.house .address {
+    margin: 30px 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     /*border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;*/
+    
+}
+.house .moredetail{
+    display: flex;
+}
+
+.house .add h4 {
+    margin: 10px 0;
+    font-weight: 600;
+    color:black;
+}
+.house .des{
+    margin-top: 10px 0;
+    font-weight: 400;
+    font-size: 1.225em;
+    margin-left: 200px;
+}
+.house h2 {
+    color: #343a40;
+}
+
+.house h3 {
+    color: #343a40;
+    font-size: 1.5em;
+}
+
+.house .carousel-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    margin: 20px 0;
+}
+
+.house .carousel {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+    width:auto;
+}
+
+.house .carousel-item {
+    width:100px;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.house .carousel-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.house .carousel-button {
+    background-color: #ddd;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.house .carousel-button:hover {
+    background-color: #bbb;
+}
+
+.house .prev {
+    margin-right: 10px;
+}
+
+.house .next {
+    margin-left: 10px;
+}
+
+.house .how-it-works {
+    background: #e9ecf7;
+    padding: 20px 40px;
+}
+
+.house .how-it-works h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.house .steps {
+    display: flex;
+    gap:35px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.house .step {
+    
+    display: flex;
+    gap:10px;
+}
+
+.house .step .icon {
+    font-size: 1.75em;
+   
+}
+.house .step .text{
+    font-size: 1.25em;
+   
+}
+
+/* Testimonials Styles */
+.house.testimonials {
+    padding: 40px 20px;
+}
+
+.house .testimonials h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.house .testimonial {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.house .testimonial p {
+    font-size: 18px;
+}
+

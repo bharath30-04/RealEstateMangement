@@ -1,0 +1,98 @@
+.profile-popup {
+  position:absolute;
+  top: 300px;
+  right: 50px;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  margin-right:-200px;
+}
+
+.profile-popup .popup-circle {
+  color:white;
+  width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  background-color:linear-gradient(to bottom, #343a40, transparent);;
+   backdrop-filter: blur(20px);
+  display: flex;
+  flex-wrap:wrap;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index:2;
+}
+
+.profile-popup .popup-part {
+margin:0px;
+ width:100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  z-index:1;
+}
+
+.profile-popup .profile-section {
+  background-color:transparent;
+}
+.profile-popup .settings-section {
+  background-color: transparent;
+}
+
+.profile-popup .logout-section {
+  background-color: transparent;
+}
+
+/*.popup-part:hover {
+  background-color: #d1d5db;
+  cursor: pointer;
+ transition: background-color 0.3s;
+  color:green;
+}*/
+
+.profile-popup .close-btn {
+  color:white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+ display:block;
+ background:gray;
+  border-radius:0px 10px;
+  height:40px;
+  width:35px;
+  align-items:center;
+  text-align:center;
+  font-size: 28px;
+  cursor: pointer;
+  z-index:2
+}
+
+/*.close-btn:hover {
+  color: red;
+}*/
+.profile-popup .admins,.agts,.users{
+border:2px solid white;
+width:150px;
+height:50px;
+border-radius:10px;
+background:transparent;
+color:white;
+margin:5px;
+display:flex;
+justify-content:center;
+align-items:center;
+cursor:pointer;
+}
+.profile-popup .buttons:hover
+{ background:white;
+color:gray;
+}
+.profile-popup .links{
+  text-decoration:none;
+}
+.profile-popup h3{
+  color:white;
+}

@@ -1,0 +1,38 @@
+
+.agnts{
+    margin-top: 50px;
+    
+}
+.agnts h2{
+    font-size: 3em;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.agnts .agents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.agnts .agent{
+    width: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    background: #f8f9fa;
+    border: 1px solid #343a40;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow:  0 10px 15px rgba(0,0,0,0.6) ;
+}
+.agnts .agent img{
+    width: 200px;
+    height: 200px;
+}
+.agnts .name,.phno{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.agnts .location{
+    font-size: 18px;
+    color:#343a40;
+}

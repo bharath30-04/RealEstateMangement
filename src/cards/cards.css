@@ -1,0 +1,47 @@
+/* Featured Listings Styles */
+.featured-listings {
+    padding: 40px 20px;
+}
+
+.featured-listings h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.listing {
+    width: 30%;
+    margin:80px;
+    text-align: center;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.listing img {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.location {
+    font-size: 28px;
+    color: #666;
+}
+.noresults
+{
+    text-align:center;
+    font-size:20px;
+}
+

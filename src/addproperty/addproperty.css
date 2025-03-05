@@ -1,0 +1,116 @@
+.addproperty{
+    background: url("./../img/disha1.jpg");
+    background-position:center;
+    width:100%;
+    height: auto;
+    font-family: Arial, sans-serif;
+    
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+.addproperty form {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    background: transparent;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.addproperty form div {
+    margin-bottom: 15px;
+}
+
+.addproperty label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.addproperty input[type="text"], 
+.addproperty input[type="tel"],
+.addproperty input[type="number"],
+
+.addproperty select,
+.addproperty textarea {
+    font-size: 1em;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 2px solid #343a40;
+}
+.addproperty button{
+    font-size: 1em;
+    align-self: center;
+    width: 25%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid #342a40;
+    outline: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 2px solid #343a40;
+    cursor: pointer;
+}
+.addproperty input[type="file"] {
+    margin-top: 5px;
+    background: transparent;
+}
+
+.addproperty h2 {
+    text-align:left;
+    font-size: 1.75em;
+    color: #343a40;
+}
+.addproperty h3{
+    font-size: 1.25em;
+}
+.addproperty h1 {
+    font-size: 2em;
+    font-weight: 600;
+    text-align:center;
+    color: #343a40;
+}
+
+.addproperty textarea {
+    resize: vertical;
+}
+
+.addproperty input[type="text"]:focus, 
+.addproperty input[type="tel"]:focus, 
+.addproperty input[type="number"]:focus,
+.addproperty select:focus,
+.addproperty button:focus,
+.addproperty textarea:focus {
+    border-color: #343a40;
+    outline: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.addproperty input[type="file"] {
+    padding: 5px;
+    border: none;
+    background:transparent;
+}
+
+.addproperty input[type="file"]:focus {
+    outline: none;
+}
+
+@media (max-width: 600px) {
+    .addproperty form {
+        width: 90%;
+    }
+}
